@@ -13,14 +13,14 @@ st.sidebar.write(
 # Exemple de documents à lister dans la sidebar
 # À adapter selon la structure de vos propres documents (titres, URL, etc.)
 documents_tcm = [
-    {"title": "Politique SMSI", "url": "https://docs.google.com/document/d/1FFBexxMZfdnDvhv1NHNVGiIOrxsXcv9K2ZCeasqm6gA"},
-    {"title": "Procédure de gestion des incidents", "url": "https://docs.google.com/document/d/1KrGuZ-MWoIB2CEHddV6_p2AZuNYb9rPPhMkEZ7kYYy4"},
-    {"title": "Gestion des accès physiques", "url": "https://docs.google.com/document/d/1QEWcT1_t8Uxe30LxgaURpd2vgMNG59TVFh8PolKS-KU"},
+    # {"title": "Politique SMSI", "url": "https://docs.google.com/document/d/1FFBexxMZfdnDvhv1NHNVGiIOrxsXcv9K2ZCeasqm6gA"},
+    # {"title": "Procédure de gestion des incidents", "url": "https://docs.google.com/document/d/1KrGuZ-MWoIB2CEHddV6_p2AZuNYb9rPPhMkEZ7kYYy4"},
+    #{"title": "Gestion des accès physiques", "url": "https://docs.google.com/document/d/1QEWcT1_t8Uxe30LxgaURpd2vgMNG59TVFh8PolKS-KU"},
     {"title": "Charte de télétravail", "url": "https://docs.google.com/document/d/1xx2ZKhsJ0-M-wFjfgAoL4aVb8uBsLxFYZLTEF8Hp3Oc"},
-    {"title": "Charte éthique", "url": "https://docs.google.com/document/d/13TsJXppDAc0MjWDJWIDSDqMPEaRY5wxMidRSVlWYyqI"},
-    {"title": "Charte administrateur", "url": "https://docs.google.com/document/d/1POrFdzVXTPed5AWxPRO8RBhOqqqlVx5s0XEMBo_0G1s"},
-    {"title": "Politique de développement informatique sécurisé", "url": "https://docs.google.com/document/d/1hOJQbJIUt-I6wE9eprHJ3s25XaOL-7ZEFb7G9tbt8Uw"},
-    {"title": "Politique de transfert de l'information", "url": "https://docs.google.com/document/d/11RIzbEOiqwNrlE_mi2hA6ceA7CFamEnQAlfsEFtbrc4"},
+    #{"title": "Charte éthique", "url": "https://docs.google.com/document/d/13TsJXppDAc0MjWDJWIDSDqMPEaRY5wxMidRSVlWYyqI"},
+    #{"title": "Charte administrateur", "url": "https://docs.google.com/document/d/1POrFdzVXTPed5AWxPRO8RBhOqqqlVx5s0XEMBo_0G1s"},
+    #{"title": "Politique de développement informatique sécurisé", "url": "https://docs.google.com/document/d/1hOJQbJIUt-I6wE9eprHJ3s25XaOL-7ZEFb7G9tbt8Uw"},
+    #{"title": "Politique de transfert de l'information", "url": "https://docs.google.com/document/d/11RIzbEOiqwNrlE_mi2hA6ceA7CFamEnQAlfsEFtbrc4"},
     {"title": "Charte informatique", "url": "https://docs.google.com/document/d/1ti3QS5COTDktiBs6KrIQrFe_FDiQHEBV5rg31hSOMDU"},
 ]
 
@@ -30,9 +30,9 @@ for doc in documents_tcm:
 
 st.sidebar.markdown("---")
 
-st.sidebar.write(
-    "Des informations complémentaires ont été récupérées sur le site de TCM tel que \"Ma vie à TCM\" et \"Je suis en CDI\""
-    )
+# st.sidebar.write(
+#     "Des informations complémentaires ont été récupérées sur le site de TCM tel que \"Ma vie à TCM\" et \"Je suis en CDI\""
+#     )
 
 # -- INITIALISATION --
 if "conversation" not in st.session_state:
